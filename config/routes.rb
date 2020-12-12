@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  resources :invoice_clients
+  resources :invoice_suppliers
+  resources :rols
+  resources :add_to_invoice_clients
+  resources :add_to_invoice_suppliers
   resources :users
   resources :roles
   resources :clients
